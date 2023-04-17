@@ -51,7 +51,7 @@ By default, the name of the imported note is the same as the original note but y
 The `Notebook` menu proposes almost the same features as the note management section in the home page. From the drop-down menu you can:
 
 1. Open a selected note
-2. Filter node by name
+2. Filter note by name
 3. Create a new note
 
 <img src="{{BASE_PATH}}/assets/themes/zeppelin/img/ui-img/notebook_menu.png" width="170px" />
@@ -143,7 +143,7 @@ In the middle of the toolbar you can find the command buttons:
 * clear the `result section` of all paragraphs
 * clone the current note
 * export the current note to a JSON file. _Please note that the `code section` and `result section` of all paragraphs will be exported. If you have heavy data in the `result section` of some paragraphs, it is recommended to clean them before exporting
-* commit the current node content
+* commit the current note content
 * delete the note
 * schedule the execution of **all paragraph** using a CRON syntax
 
@@ -154,6 +154,6 @@ On the right of the note tool bar you can find configuration icons:
 * display all the keyboard shorcuts
 * configure the interpreters binding to the current note
 * configure the note permissions
-* switch the node display mode between `default`, `simple` and `report`
+* switch the note display mode between `default`, `simple` and `report`
 
 <img src="{{BASE_PATH}}/assets/themes/zeppelin/img/ui-img/note_configuration.png" width="180px"/>
